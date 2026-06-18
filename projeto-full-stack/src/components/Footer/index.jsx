@@ -2,8 +2,8 @@ import './styles.css';
 
 
 export default function Footer() {
-    return ({
-        <Footer className = "footer" >
+    return (
+        <footer className = "footer" >
             <p >
                 & copy: {new Date().getFullYear()}
                 -  Todos os direitos reservados.
@@ -11,9 +11,9 @@ export default function Footer() {
                 Stephanie
             </p >
         
-        </Footer >
+        </footer >
 
-    }
-
+    
     )
+    
 }
